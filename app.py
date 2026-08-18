@@ -39,7 +39,7 @@ if st.button("Get Weather"):
         description = data["weather"][0]["description"]
 
         # Display weather information
-        st.subheader(f"Weather in {data['name']} 🌎")
+        st.subheader(f"Weather in {data['name']}")
         st.write(f"Temperature: {temperature}C")
         st.write(f"Humidity: {humidity}%")
         st.write(f"Conditions: {description}")
